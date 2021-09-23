@@ -28,7 +28,7 @@ class NumberingCounterData
      * @ORM\Column(type="string", length=255, nullable=true)
      * @Assert\Length(max=255)
      */
-    protected ?string $configName;
+    protected ?string $configName = null;
 
     /**
      * Initial value of the counter
@@ -65,7 +65,7 @@ class NumberingCounterData
      * @ORM\Column(type="string", length=255, nullable=true)
      * @Assert\Length(max=255)
      */
-    protected ?string $subjectFQCN;
+    protected ?string $subjectFQCN = null;
 
     /**
      * Time context type e.g. "year" or  "month", if specified, current value will be determined in that context
@@ -75,7 +75,7 @@ class NumberingCounterData
      * @ORM\Column(type="string", length=30, nullable=true)
      * @Assert\Length(max=30)
      */
-    protected ?string $timeContext;
+    protected ?string $timeContext = null;
 
     /**
      * Time context value e.g. 2019, if time context specified
@@ -83,7 +83,7 @@ class NumberingCounterData
      * @var integer|null
      * @ORM\Column(type="integer", nullable=true)
      */
-    protected ?int $timeContextValue;
+    protected ?int $timeContextValue = null;
 
     /**
      * FQCN of the context object
@@ -92,7 +92,7 @@ class NumberingCounterData
      * @ORM\Column(type="string", length=255, nullable=true)
      * @Assert\Length(max=255)
      */
-    protected ?string $contextObjectFQCN;
+    protected ?string $contextObjectFQCN = null;
 
     /**
      * Object context value
@@ -101,7 +101,7 @@ class NumberingCounterData
      * @ORM\Column(type="string", length=255, nullable=true)
      * @Assert\Length(max=255)
      */
-    protected ?string $contextObjectValue;
+    protected ?string $contextObjectValue = null;
 
 
     /**
