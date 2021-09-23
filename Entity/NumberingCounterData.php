@@ -21,6 +21,7 @@ class NumberingCounterData
     const DEFAULT_START = 1;
     const DEFAULT_STEP = 1;
 
+
     /**
      * Pattern name from configuration
      *
@@ -119,6 +120,15 @@ class NumberingCounterData
         }
     }
 
+    /**
+     * @param int|null $id
+     * @return NumberingCounterData
+     */
+    public function setId(?int $id): NumberingCounterData
+    {
+        $this->id = $id;
+        return $this;
+    }
 
     /**
      * @return string|null

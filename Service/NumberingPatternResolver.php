@@ -52,7 +52,7 @@ class NumberingPatternResolver
                     $replacement = sprintf("%0{$charsNumber}d", $currentValue);
                 }
 
-                $numberPatternString = str_replace($matches[0][$i], $replacement, $numberPatternString);
+                $numberPatternString = str_replace($matches[0][$i], (string)$replacement, $numberPatternString);
             }
         }
 
