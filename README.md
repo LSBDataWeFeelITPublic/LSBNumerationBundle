@@ -1,7 +1,7 @@
 LSBNumerationBundle
 ------------------
 
-[![Latest Stable Version](https://poser.pugx.org/lsb/numeration-bundle/v/stable)](https://packagist.org/packages/lsb/numeration-bundle) [![Build Status](https://travis-ci.com/LSBDataWeFeelITPublic/LSBNumerationBundle.svg?branch=master)](https://travis-ci.com/LSBDataWeFeelITPublic/LSBNumerationBundle) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/LSBDataWeFeelITPublic/LSBNumerationBundle/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/LSBDataWeFeelITPublic/LSBNumerationBundle/?branch=master) [![Code Coverage](https://scrutinizer-ci.com/g/LSBDataWeFeelITPublic/LSBNumerationBundle/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/LSBDataWeFeelITPublic/LSBNumerationBundle/?branch=master)
+[![Build Status](https://travis-ci.com/LSBDataWeFeelITPublic/LSBNumerationBundle.svg?branch=master)](https://travis-ci.com/LSBDataWeFeelITPublic/LSBNumerationBundle) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/LSBDataWeFeelITPublic/LSBNumerationBundle/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/LSBDataWeFeelITPublic/LSBNumerationBundle/?branch=master) [![Code Coverage](https://scrutinizer-ci.com/g/LSBDataWeFeelITPublic/LSBNumerationBundle/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/LSBDataWeFeelITPublic/LSBNumerationBundle/?branch=master)
 
 This bundle provides functionality of generating subsequent numbers for any given object e.g. Order, Invoice etc. in Symfony 5 applications.
  
