@@ -1,0 +1,84 @@
+{
+  "name": "lsb/numeration-bundle",
+  "type": "symfony-bundle",
+  "description": "Number generator for Symfony 5 applications",
+  "license": "MIT",
+  "keywords": [
+    "symfony",
+    "number",
+    "generator"
+  ],
+  "homepage": "https://lsbdata.com",
+  "authors": [
+    {
+      "name": "LSB DATA",
+      "email": "piotr.bazylewicz@lsb.com.pl"
+    }
+  ],
+  "require": {
+    "php": "^8.0",
+    "symfony/framework-bundle": "^5.2",
+    "symfony/orm-pack": "^2.0",
+    "symfony/validator": "^5.2",
+    "lsb/utility-bundle": ">=0.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0",
+    "symfony/phpunit-bridge": "^5.0",
+    "php-coveralls/php-coveralls": "^2.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "LSB\\NumerationBundle\\": ""
+    },
+    "exclude-from-classmap": [
+      "Tests/"
+    ]
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/LSBDataWeFeelITPublic/LSBLocaleBundle.git"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/LSBDataWeFeelITPublic/TranslationFormBundle.git"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/LSBDataWeFeelITPublic/LSBUtilityBundle.git"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/LSBDataWeFeelITPublic/LSBUserBundle.git"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/LSBDataWeFeelITPublic/LSBContractorBundle.git"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/LSBDataWeFeelITPublic/LSBProductBundle.git"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/LSBDataWeFeelITPublic/LSBPricelistBundle.git"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/LSBDataWeFeelITPublic/LSBMessengerBundle.git"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/LSBDataWeFeelITPublic/LSBPaymentBundle.git"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/LSBDataWeFeelITPublic/LSBOrderBundle.git"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/LSBDataWeFeelITPublic/LSBNotificationBundle.git"
+    }
+  ]
+}

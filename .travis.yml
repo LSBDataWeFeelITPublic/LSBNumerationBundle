@@ -1,0 +1,25 @@
+language: php
+
+php:
+  - 8.0
+
+matrix:
+  fast_finish: true
+  include:
+    - php: 8.0
+      env: COMPOSER_FLAGS="--prefer-lowest"
+
+sudo: false
+
+cache:
+  directories:
+    - $HOME/.composer/cache/files
+
+install:
+  - composer update --prefer-dist --no-interaction $COMPOSER_FLAGS
+
+script:
+ # - composer validate --strict --no-check-lock
+  - vendor/bin/phpunit --coverage-clover=coverage.clover
+  - wget https://scrutinizer-ci.com/ocular.phar
+  - php ocular.phar code-coverage:upload --format=php-clover coverage.clover
