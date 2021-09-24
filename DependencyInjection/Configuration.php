@@ -20,7 +20,7 @@ class Configuration implements ConfigurationInterface
      */
     public function getConfigTreeBuilder()
     {
-        $treeBuilder = new TreeBuilder('lsb_numeration');
+        $treeBuilder = new TreeBuilder(self::CONFIG_KEY);
 
         $rootNode = $treeBuilder->getRootNode();
         $rootNode
